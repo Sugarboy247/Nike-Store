@@ -139,4 +139,6 @@ close.addEventListener("click",() =>{
 })
 payment.addEventListener("click",()=>{
     alert("Product shipped successfully")
+    payment.style.display = "none"
+    
 })
