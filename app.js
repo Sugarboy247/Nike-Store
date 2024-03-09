@@ -137,3 +137,6 @@ productButton.addEventListener("click",() =>{
 close.addEventListener("click",() =>{
     payment.style.display = "none"
 })
+payment.addEventListener("click",()=>{
+    alert("Product shipped successfully")
+})
